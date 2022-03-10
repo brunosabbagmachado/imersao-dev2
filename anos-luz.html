@@ -5,31 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Moedas</title>
+    <title>Conversor de Anos-luz</title>
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="abas">
-        <a href="index.html"><button class="botao-aba ativa" type="submit">Moedas</button></a>
-        <a href="anos-luz.html"><button class="botao-aba" type="submit">Anos-luz</button></a>
+        <a href="index.html"><button class="botao-aba" type="submit">Moedas</button></a>
+        <a href="anos-luz.html"><button class="botao-aba ativa" type="submit">Anos-luz</button></a>
         <a href="temperatura.html"><button class="botao-aba" type="submit">Temperaturas</button></a>
     </div>
 
 
-    <div class="container conversor-moedas">
+    <div class="container conversor-luz">
         <h1 class="page-title">
-            Conversor de moedas
+            Conversor de anos-luz
         </h1>
         <p class="page-subtitle">
-            Descubra quanto vale o dólar em algumas moedas
+            Descubra os valores quilométricos em anos-luz
         </p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
             class="page-logo" alt=""><br><br>
-        <label for="moeda">Insira o valor em dólar</label><br>
-        <input type="number" id="valorMoedas" size="2" /><br>
-        <button type="submit" onclick="ConverterDolar()">Converter</button>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valorAnosLuz" size="2" /><br>
+        <button type="submit" onclick="ConverterAnosLuz()">Converter</button>
         <h2 id="valorConvertido"></h2>
     </div>
 
