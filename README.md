@@ -2,7 +2,7 @@
 <h1 align="center">Conversor - Imersão Dev - Aula 2</h1>
 
 
-<p align="center"><a href="https://brunosabbagmachado.github.io/imersao-dev2/">Site</a> de Conveter moedas, temperaturas e anos-luz, criado durante a Aula 2 da Imersão Dev da Alura.</p>
+<p align="center"><a href="https://brunosabbagmachado.github.io/imersao-dev2-conversor/">Site</a> de Conveter moedas, temperaturas e anos-luz, criado durante a Aula 2 da Imersão Dev da Alura.</p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/-html-green#:~:text=html-,html" >
