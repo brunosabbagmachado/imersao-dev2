@@ -1,7 +1,7 @@
 function ConverterDolar() {
-  var valorElemento = document.getElementById("valorMoedas");
-  var valor = valorElemento.value;
-  var valorEmDolarNumerico = parseFloat(valor);
+  var valorEmDolarNumerico = parseFloat(document.getElementById("valorMoedas").value);
+  //var valor = valorElemento.value;
+ //var valorEmDolarNumerico = parseFloat(valor);
 
   console.log("Valor digitado: " + valorEmDolarNumerico);
 
@@ -27,9 +27,7 @@ function ConverterDolar() {
 }
 
 function ConverterAnosLuz() {
-    var valorElemento = document.getElementById("valorAnosLuz");
-    var valor = valorElemento.value;
-    var valorEmQuilometros = parseFloat(valor);
+    var valorEmQuilometros = parseFloat(document.getElementById("valorAnosLuz").value);
   
     console.log("Valor digitado: " + valorEmQuilometros);
   
@@ -42,9 +40,7 @@ function ConverterAnosLuz() {
   }
 
   function ConverterTemperatura() {
-    var valorElemento = document.getElementById("valorTemperatura");
-    var valor = valorElemento.value;
-    var valorEmCelsius = parseFloat(valor);
+    var valorEmCelsius = parseFloat(document.getElementById("valorTemperatura").value);
   
     console.log("Valor digitado: " + valorEmCelsius);
   
