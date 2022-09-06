@@ -5,39 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Moedas</title>
+    <title>Conversor</title>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="abas">
-        <a href="index.html"><button class="botao-aba ativa" type="submit">Moedas</button></a>
-        <a href="./html/anos-luz.html"><button class="botao-aba" type="submit">Anos-luz</button></a>
-        <a href="./html/temperatura.html"><button class="botao-aba" type="submit">Temperaturas</button></a>
+        <button class="botao-aba botao-moeda ativa" type="submit">Moedas</button>
+        <button class="botao-aba botao-luz" type="submit">Anos-luz</button>
+        <button class="botao-aba botao-temperatura" type="submit">Temperaturas</button>
     </div>
-
 
     <div class="container conversor-moedas">
-        <h1 class="page-title">
-            Conversor de moedas
-        </h1>
-        <p class="page-subtitle">
-            Descubra quanto vale o dólar em algumas moedas
-        </p>
+        <h1 class="page-title">Conversor de moedas</h1>
+        <p class="page-subtitle">Descubra quanto vale o dólar em algumas moedas</p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
-            class="page-logo" alt=""><br><br>
+            class="page-logo" alt="Logo da Imersão Dev"><br><br>
         <label for="moeda">Insira o valor em dólar</label><br>
-        <input type="number" id="valorMoedas" size="2" /><br>
+        <input type="number" id="valorMoedas" size="2"><br>
         <button class="botao-converter" type="submit" onclick="ConverterDolar()">Converter</button>
-        <h2 id="valorConvertido"></h2>
+        <h2 id="valor-convertido-moeda" class="valor-convertido"></h2>
     </div>
 
+    <div class="container conversor-luz esconder">
+        <h1 class="page-title">Conversor de anos-luz</h1>
+        <p class="page-subtitle">Descubra os valores quilométricos em anos-luz</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt="Logo da Imersão Dev"><br><br>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valorAnosLuz" size="2"><br>
+        <button class="botao-converter" type="submit" onclick="ConverterAnosLuz()">Converter</button>
+        <h2 id="valor-convertido-luz" class="valor-convertido"></h2>
+    </div>
+
+    <div class="container conversor-temperatura esconder">
+        <h1 class="page-title">Conversor de temperatura</h1>
+        <p class="page-subtitle">Descubra quantos graus celsius valem em outras temperaturas</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt="Logo da Imersão Dev"><br><br>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valorTemperatura" size="2"><br>
+        <button class="botao-converter" type="submit" onclick="ConverterTemperatura()">Converter</button>
+        <h2 id="valor-convertido-temperatura" class="valor-convertido"></h2>
+    </div>
 
     <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="Logo da Alura" class="alura-logo">
 
-        <script src="./js/script.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="./js/Conversores/conversorMoeda.js"></script>
+        <script src="./js/Conversores/conversorLuz.js"></script>
+        <script src="./js/Conversores/conversorTemperatura.js"></script>
 </body>
 
 </html>

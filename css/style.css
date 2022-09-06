@@ -1,11 +1,17 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  /* background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png"); */
   background-color: #000000;
-  /* background-size: 100vh;
-    background-position: center bottom;
-    background-repeat: no-repeat; */
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
 }
 
 .container {
@@ -35,11 +41,11 @@ body {
 }
 
 .botao-aba:hover {
-  background-color: #e67817;
+  background-color: #c35b00;
 }
 
- .ativa {
-  background-color: #e67817;
+.ativa {
+  background-color: #eb7107;
   color: #fff;
 }
 
@@ -56,25 +62,25 @@ body {
   transition: 0.5s all;
 }
 
-.botao-converter:hover{
+.botao-converter:hover {
   transform: scale(125%);
 }
 
-.conversor-moedas{
+.conversor-moedas {
   background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png");
   background-size: 75vh;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
-.conversor-luz{
+.conversor-luz {
   background-image: url("https://images.vexels.com/media/users/3/203408/isolated/preview/0f7ad5373bdbe3c3ea6defb24c74087d-ilustracao-do-sistema-solar.png");
   background-size: 70vh;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
-.conversor-temperatura{
+.conversor-temperatura {
   background-image: url("https://images.vexels.com/media/users/3/213501/isolated/preview/a17749ece9ce89f2e1a558a430f66032-roupa-a-temperatura-da-agua.png");
   background-size: 65vh;
   background-position: center bottom;
@@ -102,17 +108,11 @@ body {
   right: 10px;
 }
 
-input {
-  margin: 12px;
-  padding: 6px;
-  border-radius: 5px;
-}
-
-label {
-  color: white;
-}
-
-h2 {
+.valor-convertido {
   color: #ffffff;
   font-size: 30px;
+}
+
+.esconder {
+  display: none;
 }
