@@ -2,7 +2,7 @@
 <h1 align="center">Conversor - Imersão Dev - Aula 2</h1>
 
 
-<p align="center"><a href="https://brunosabbagmachado.github.io/imersao-dev2-conversor/">Site</a> de Conveter moedas, temperaturas e anos-luz, criado durante a Aula 2 da Imersão Dev da Alura.</p>
+<p align="center"><a href="https://brunosabbagmachado.github.io/imersao-dev2-conversor/">Site</a> de Conveter moedas, anos-luz e temperatura, criado durante o Dia 2 da Imersão Dev da Alura.</p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/-html-green#:~:text=html-,html" >
@@ -28,7 +28,7 @@
 
 Estou participando da Imersão Dev da [Alura](https://www.alura.com.br/), que está acontencendo agora no começo de março 2022. 
 
-Esta página foi criada após a conclusão da segunda aula da Imersão.
+Esta página foi criada após a conclusão do segundo dia da Imersão.
 
 O objetivo da aula era construir uma página de Converter moedas. Mais precisamente uma página que converte dólar em real. 
 
@@ -51,6 +51,7 @@ No CSS, complementei o que já havia sido criado pela Alura, fazendo alteraçõe
 
 No JS, utilizei da mesma lógica que aprendi na Imersão para criar o código que transformasse Celsius em outras temperaturas e quilómetros em anos-luz. Também inseri outras moedas e implementei os quatro resultados de uma única vez no HTML.
 
+Atualização Setembro 2022: hoje, refatorei o projeto, fazendo todo o dinamismo de troca de página acontecer via JavaScript e reduzindo o número de arquivos HTML para apenas um.
 
 # Imagens
 
@@ -91,5 +92,3 @@ Oi, eu sou o Bruno e é uma honra ter você aqui.
 Espero que tenha gostado do projeto. Fique a vontade para comentar, ou até melhorar o código. Será um prazer compartilhar conhecimentos.
 
 Me siga aqui no [Github](https://github.com/brunosabbagmachado) e também no [Linkedin](https://www.linkedin.com/in/brunosabbagmachado/). Vou te seguir de volta e será uma horna ter você na minha rede.
-
-Abraços
